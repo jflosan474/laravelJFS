@@ -1,0 +1,214 @@
+/* resources/css/app.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.chollos-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chollo-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+.chollo-description {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.chollo-details {
+    font-size: 14px;
+}
+
+
+
+
+.chollo-link {
+    color: #3490dc;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+
+.chollo-edit {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chollo-details {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chollo-details h2 {
+    color: #333;
+}
+
+.chollo-details p {
+    margin-bottom: 10px;
+}
+
+.chollo-details strong {
+    color: #4caf50;
+}
+
+.chollo-buttons {
+    margin-top: 15px;
+}
+
+.edit-button,
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-button img {
+    max-width: 20px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
